@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 58px 25px 35px;
+    text-decoration: underline;
+   font-family: serif;
+   font-weight: bold;
+    font-size: 40px;
+}
+
+.btn:hover{
+    background-color: rgb(11, 74, 157);
+}
+
+ .boder:hover{
+    background-color: rgb(221, 217, 249);
+    border-bottom: 2px solid #2895ee;
+
+}
+
+.sidebar{
+    position: sticky;
+    top: 60px;
+    
+}
+
+/* video resolution settings*/
+
+iframe {
+    border: 0;
+    width: inherit;
+    height: 500px;
+    padding: 0px 12px;
+}
+
+video {
+    border: 0;
+    width: inherit;
+    height: 500px;
+    padding: 0px 12px;
+}
+/* description and instructor part styling*/
+.Row{
+    border-top: 3px solid #d1d7dc;
+    padding: 2.5rem;
+    display: flex;
+}
+.row-review{
+    border-top: 3px solid #d1d7dc;
+    padding: 2.4rem;
+    display: flex;
+}
+.container{
+    padding: 12px 40px;
+}
+
+/* carosel item */
+.carousel-control-prev{
+    bottom: 540px;
+    top: 240px;
+}
+.carousel-control-next{
+    bottom: 540px;
+    top: 240px;
+} 
+
+/* ratimg part */
+.rating-inner{
+    height: 215px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #a6e4ff, #89d1f5);
+  box-shadow: 0 -3px 25px rgba(0, 0, 0, 0.385);
+}
+.rating-box {
+    position: relative;
+    background: #fff;
+    padding: 25px 65px 35px;
+    border-radius: 25px;
+    box-shadow: 0 15px 16px rgba(0, 0, 0, 0.25);
+  }
+  .rating-box header {
+    font-size: 22px;
+    color: #dadada;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .rating-box .stars {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+  }
+  .stars i {
+    color: #e6e6e6;
+    font-size: 35px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+   
+  }
+  .stars i.active {
+    color: #ff9c1a;
+  }
+
+
